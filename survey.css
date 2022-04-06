@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+ /* border:1px solid grey; */
+  }
+  /*General Styles*/
+html {
+    font-size: 62.5%;
+  }
+
+body {
+      font-size: 1.6rem;
+      line-height: 1.5;
+      background-color: lightblue;
+  }
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+} 
+
+.main div {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-right: .5rem;
+}
+
+#survey div p {
+    padding: .5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+    height: 2.5rem;
+}
+
+.response {
+    display: flex;
+    justify-content: center;
+} 
+
+.response button {
+    width: 6%;
+}

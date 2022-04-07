@@ -46,3 +46,11 @@ label {
 .response button {
     width: 6%;
 }
+
+.hideSurvey {
+    visibility: hidden;
+}
+
+.options {
+    color: blue;
+}
